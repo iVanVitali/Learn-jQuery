@@ -40,3 +40,8 @@ Es un conjunto de varios proyectos para aprender jQuery
           .Ubicacion: carpeta Lynda/jQET/proyecto2
           .Creamos un evento que se va a activar o ejecutar cuando se cargue la pagina
           .Dentro del evento creado vamos a usar jQuery para seleccionar y filtrar la informacion contenida dentro de la pagina web.
+      
+      3. Proyecto3: Crear/Cambiar el contenido con jQuery
+          .Ubicacion: carpeta Lynda/jQET/proyecto2
+          .Creamos un evento que se va a activar o ejecutar cuando se cargue la pagina
+          .Dentro del evento creado vamos a usar jQuery para crear nuevo contenido en la pagina web y tambien vamos a cambiar el contenido existente en la pagina web.

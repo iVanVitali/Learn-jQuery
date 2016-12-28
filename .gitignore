@@ -1,8 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 .DS_Store
+.idea/
 .idea/Learn-jQuery.iml
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
-.idea/
+.idea/vcs.xml
 

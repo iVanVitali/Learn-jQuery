@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Proyecto3 - Crear/Cambiar el contenido con jQuery</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1 id="intro">Proyecto3 - Crear/Cambiar el contenido con jQuery!</h1>
+    <div id="content">
+        <p>jQuery hace que sea muy fácil crear nuevo contenido en la página y cambiar el contenido existente de la
+            página.</p>
+        <h2 id="creation">Creación del contenido</h2>
+        <p>Crear un nuevo contenido es tan simple como pasar una cadena de HTML a la función  <code>$()</code>.</p>
+        <p>Por ejemplo, <code> $("&lt;p&gt;")</code> crea una nueva etiqueta de párrafo vacía. Para agregar contenido nuevo al párrafo, puede escribir simplemente <code>$("&lt;p&gt;").append("&lt;em&gt;Hello there&lt;/em&gt;")</code>. </p>
+        <h2 id="changing"> Cambiar el contenido </h2>
+        <p> Hay varias maneras para cambiar el contenido de la página usando jQuery, dependiendo de sus necesidades. </p>
+        <p> Las funciones <code>html()</code> y <code>text()</code> pueden usarse para manipular directamente el
+            contenido de los elementos,
+            Y hay formas de controlar cómo se puede insertar y mover contenido en la página. </p>
+    </div>
+    <div id="example">
+
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap v3.3.7 compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/proyecto3.js"></script>
+</body>
+</html>
